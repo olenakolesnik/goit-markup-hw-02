@@ -48,8 +48,10 @@ ul {
         text-transform: uppercase;
 }
 .header-logo-italic {
+    font-family: "Raleway", sans-serif, ;
     color: #2e2f42;
 }
+
 .header-menu-list {
     font-weight: 500;
         font-size: 16px;
@@ -116,7 +118,9 @@ ul {
 }
 
 /*---------TEAM-------*/
-.team {}
+.team {
+    background-color: #F4F4FD;
+}
 
 .team-title {
     font-weight: 700;
@@ -126,14 +130,15 @@ ul {
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
-        background-color: #F4F4FD;
 }
 
 .team-list {
     background-color: #FFFFFF;
 }
 
-.team-list-item {}
+.team-list-item {
+    background-color: #FFFFFF;
+}
 
 .team-images {}
 
