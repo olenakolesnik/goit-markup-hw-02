@@ -19,12 +19,52 @@ ul {
         font-style: normal;
     }
     button {
-        cursor: pointer;
-    }
-    .button:hover, .button:focus {
-        color: #404BBF;
-    }
+        cursor: pointer;}
+    
+      
 
+/*-----------HEADER----------*/
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: #4d5ae5;
+        text-transform: uppercase;
+}
+.header-logo-italic {
+    font-family: "Raleway", sans-serif;
+    color: #2e2f42;
+}
+
+.header-menu-list {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.header-menu-link {
+    color: #2e2f42;
+}
+.header-menu-link:hover, .header-menu-link:focus {
+    color: #404bbf;
+}
+
+.header-contacts-link {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.header-contacts-link:hover, .header-contacts-link:focus {
+    color: #404bbf;
+}
+
+
+/*-------HERO--------*/
 .visually-hidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -37,42 +77,6 @@ ul {
     width: 1px;
     white-space: nowrap;
 }
-/*-----------HEADER----------*/
-.header-logo {
-    font-family: "Raleway", sans-serif,;
-    font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        color: #4d5ae5;
-        text-transform: uppercase;
-}
-.header-logo-italic {
-    font-family: "Raleway", sans-serif, ;
-    color: #2e2f42;
-}
-
-.header-menu-list {
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}
-
-.header-contacts-link {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-}
-.header-contacts-link:hover, .header-contacts-link:focus {
-    color: #4d5ae5
-}
-
-
-/*-------HERO--------*/
 .hero {
     background-color: #2e2f42;
 }
@@ -84,6 +88,9 @@ ul {
         letter-spacing: 0.04em;
         color: #fff;
         background-color: #4d5ae5;
+}
+.hero-btn-orange:hover, .hero-btn-orange:focus {
+    color: #404bbf;
 }
 .hero-title {
     font-weight: 700;
