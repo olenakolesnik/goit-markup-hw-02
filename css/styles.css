@@ -80,6 +80,9 @@ ul {
 .hero {
     background-color: #2e2f42;
 }
+.hero:hover, .hero:focus {
+    color: #404BBF;
+}
 .hero-btn-orange {
     font-family: inherit;
     font-weight: 500;
