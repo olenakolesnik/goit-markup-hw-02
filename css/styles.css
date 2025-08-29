@@ -80,9 +80,6 @@ ul {
 .hero {
     background-color: #2e2f42;
 }
-.hero:hover, .hero:focus {
-    color: #404BBF;
-}
 .hero-btn-orange {
     font-family: inherit;
     font-weight: 500;
@@ -92,7 +89,10 @@ ul {
         color: #fff;
         background-color: #4d5ae5;
 }
-.hero-btn-orange:hover, .hero-btn-orange:focus {
+.hero-btn-orange:hover {
+        color: #404bbf;
+    }
+.hero-btn-orange:focus {
     color: #404bbf;
 }
 .hero-title {
